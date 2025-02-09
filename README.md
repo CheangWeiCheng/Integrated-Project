@@ -117,6 +117,7 @@ Credits
 
 Content:
 The design and layout of the pages were done by Htet Paing Oo.
+This image was used in arrived.html https://pixabay.com/vectors/finish-flag-checkered-car-race-306245/
 
 Media:
 All images of the 3D car models were edited by Htet Paing Oo.
