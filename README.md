@@ -76,7 +76,7 @@ Used to create the 3D car models seen in the homepage.
 Assistive AI:
 
 The implementation of my custom API for the sign up and login functions was aided by ChatGPT.
-(screenshot here)
+![image alt](https://github.com/CheangWeiCheng/Integrated-Project/blob/main/ChatGPT_screenshot.png?raw=true)
 
 Testing
 Testing Scenarios:
