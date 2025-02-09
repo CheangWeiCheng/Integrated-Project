@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose a Ride - Integrated Project</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <a href="index.html" class="back-arrow"><</a>
+    
+    <div class="short-map-image">
+        <img src="images/map.png" alt="map">
+    </div>
+
+    <!-- Text "Choose a Ride" -->
+    <h2 class="choose-title">Choose a Ride</h2>
+
+    <!-- List of Rides -->
+    <div id="rides" class="rides-list">
+        <!-- Ride items will be dynamically added here -->
+    </div>
+
+    <div class="continue-button">
+        <button id="continueBtn" onclick="window.location.href = 'arrived.html'">Continue</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

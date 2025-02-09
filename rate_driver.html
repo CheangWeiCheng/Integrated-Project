@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rate My Driver - Integrated Project</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <h2>Nick</h2>
+    <div class="profile-box">
+        <div class="profile-image">
+            <img src="images/person.png" alt="Profile Picture">
+        </div>
+    </div>
+    <div class="feedback-form">
+        <h2>Rate Your Driver</h2>
+        <form id="feedbackForm">
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="1">
+                <label for="star5"><i class="far fa-star"></i></label>
+                <input type="radio" id="star4" name="rating" value="2">
+                <label for="star4"><i class="far fa-star"></i></label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3"><i class="far fa-star"></i></label>
+                <input type="radio" id="star2" name="rating" value="4">
+                <label for="star2"><i class="far fa-star"></i></label>
+                <input type="radio" id="star1" name="rating" value="5">
+                <label for="star1"><i class="far fa-star"></i></label>
+            </div>
+            <div class="rating-text" id="ratingText"></div>
+            <div class="comment">
+                <textarea id="comment" name="comment" placeholder="Add Comment"></textarea>
+            </div>
+        </form>
+        <button class="submit-btn" onclick="window.location.href = 'index.html';">Done</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
